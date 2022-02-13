@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .wrapper{
+            border: 1px solid black;
+        }
+
+        .flex-container{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            align-items: center;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div class="wrapper">
+
+        <div class="top-header1">
+           <h1>FREE DELIVERY IN 24 HRS</h1>
+        </div>
+
+        <div>
+            <h3>Sell on Jumia</h3>
+        </div>
+
+        <div class="flex-container">
+            <div class="cart-container">
+                <h1>My Shop</h1>
+            </div>
+            <div class="cart-container">
+                <form action="">
+                    <input type="text" placeholder="Search Product">
+                    <button>Search</button>
+                </form>
+            </div>
+            <div class="cart-container">
+                <h3>Account</h3>
+            </div>
+            <div class="cart-container">
+                <h3>Help</h3>
+            </div>
+            <div class="cart-container">
+                <h3>Cart</h3>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
